@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:theme="@style/Theme.MyApplication"
     tools:context=".MainActivity">
 
@@ -99,33 +99,22 @@
         app:layout_constraintGuide_percent="0.95" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="682dp"
-        android:layout_height="211dp"
+        android:id="@+id/result"
+        android:layout_width="382dp"
+        android:layout_height="111dp"
         android:layout_marginTop="16dp"
         android:text="0"
-        android:textSize="200sp"
+        android:textSize="100sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline201" />
 
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="684dp"
-        android:layout_height="111dp"
-        android:layout_marginBottom="32dp"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline203"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.345"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/buttonClear"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="159dp"
-        android:layout_height="163dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/Grey2"
         android:contextClickable="false"
@@ -145,10 +134,10 @@
         app:layout_constraintVertical_bias="0.625" />
 
     <Button
-        android:id="@+id/button39"
+        android:id="@+id/buttonraiz"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="172dp"
-        android:layout_height="168dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/Grey2"
         android:text="√"
@@ -163,10 +152,10 @@
         app:layout_constraintVertical_bias="0.576" />
 
     <Button
-        android:id="@+id/button40"
+        android:id="@+id/buttonporcentaje"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="178dp"
-        android:layout_height="168dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/Grey2"
         android:text="⁒"
@@ -180,10 +169,10 @@
         app:layout_constraintVertical_bias="0.541" />
 
     <Button
-        android:id="@+id/button41"
+        android:id="@+id/buttondivide"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="181dp"
-        android:layout_height="169dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/verde"
         android:text="÷"
@@ -193,15 +182,15 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline204"
         app:layout_constraintEnd_toStartOf="@+id/guideline04"
         app:layout_constraintHorizontal_bias="0.782"
-        app:layout_constraintStart_toEndOf="@+id/button40"
+        app:layout_constraintStart_toEndOf="@+id/buttonporcentaje"
         app:layout_constraintTop_toTopOf="@+id/guideline203"
         app:layout_constraintVertical_bias="0.526" />
 
     <Button
         android:id="@+id/buttonseven"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="159dp"
-        android:layout_height="176dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="7"
         android:textAlignment="center"
@@ -217,8 +206,8 @@
     <Button
         android:id="@+id/buttoneigth"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="169dp"
-        android:layout_height="173dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="8"
         android:textAlignment="center"
@@ -228,14 +217,14 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline02"
         app:layout_constraintHorizontal_bias="0.848"
         app:layout_constraintStart_toStartOf="@+id/guideline01"
-        app:layout_constraintTop_toBottomOf="@+id/button39"
+        app:layout_constraintTop_toBottomOf="@+id/buttonraiz"
         app:layout_constraintVertical_bias="0.581" />
 
     <Button
         android:id="@+id/buttonnine"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="189dp"
-        android:layout_height="176dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="9"
         android:textAlignment="center"
@@ -249,10 +238,10 @@
         app:layout_constraintVertical_bias="0.4" />
 
     <Button
-        android:id="@+id/button45"
+        android:id="@+id/buttonmultiplicar"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="186dp"
-        android:layout_height="175dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/verde"
         android:text="x"
@@ -267,10 +256,10 @@
         app:layout_constraintVertical_bias="0.595" />
 
     <Button
-        android:id="@+id/button46"
+        android:id="@+id/buttonfour"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="162dp"
-        android:layout_height="181dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="4"
         android:textAlignment="center"
@@ -283,10 +272,10 @@
         app:layout_constraintVertical_bias="0.755" />
 
     <Button
-        android:id="@+id/button47"
+        android:id="@+id/buttonfive"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="172dp"
-        android:layout_height="175dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="5"
         android:textAlignment="center"
@@ -300,10 +289,10 @@
         app:layout_constraintVertical_bias="0.666" />
 
     <Button
-        android:id="@+id/button48"
+        android:id="@+id/buttonsix"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="179dp"
-        android:layout_height="179dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="6"
         android:textAlignment="center"
@@ -316,10 +305,10 @@
         app:layout_constraintVertical_bias="0.562" />
 
     <Button
-        android:id="@+id/button49"
+        android:id="@+id/resta"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="183dp"
-        android:layout_height="185dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/verde"
         android:text="-"
@@ -334,25 +323,25 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button50"
+        android:id="@+id/buttonone"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="167dp"
-        android:layout_height="176dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="1"
         android:textAlignment="center"
         android:textSize="70sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline207"
-        app:layout_constraintEnd_toStartOf="@+id/guideline01"
+        app:layout_constraintEnd_toStartOf="@+id/buttontwo"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/guideline206" />
 
     <Button
-        android:id="@+id/button51"
+        android:id="@+id/buttontwo"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="168dp"
-        android:layout_height="173dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="2"
         android:textAlignment="center"
@@ -364,10 +353,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline206" />
 
     <Button
-        android:id="@+id/button52"
+        android:id="@+id/buttonthree"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="178dp"
-        android:layout_height="178dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="3"
         android:textAlignment="center"
@@ -381,8 +370,8 @@
     <Button
         android:id="@+id/buttonplus"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="182dp"
-        android:layout_height="182dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/verde"
         android:text="+"
@@ -397,10 +386,10 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button54"
+        android:id="@+id/buttonpoint"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="161dp"
-        android:layout_height="174dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/Grey1"
         android:text=". "
         android:textAlignment="center"
@@ -412,10 +401,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline207" />
 
     <Button
-        android:id="@+id/button55"
+        android:id="@+id/buttonzero"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/Grey1"
         android:text="0"
         android:textAlignment="center"
@@ -429,10 +418,10 @@
         app:layout_constraintVertical_bias="0.585" />
 
     <Button
-        android:id="@+id/button56"
+        android:id="@+id/buttonnumberpi"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="177dp"
-        android:layout_height="171dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/Grey2"
         android:text="π"
@@ -441,16 +430,16 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline208"
         app:layout_constraintEnd_toStartOf="@+id/guideline03"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline02"
         app:layout_constraintTop_toTopOf="@+id/guideline207"
-        app:layout_constraintVertical_bias="0.394" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button57"
+        android:id="@+id/equal"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="186dp"
-        android:layout_height="170dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/Grey2"
         android:text="="
